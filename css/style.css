@@ -1,0 +1,92 @@
+
+/*This is a comment in CSS*/
+
+body{
+    font-family;Verdana, sans-serif;
+    margin:0;
+}
+
+h1{
+    font-size: 30px;
+
+}
+
+p{
+    font-size: 16px;
+}
+
+header{
+    padding:0 3%;
+}
+
+main{
+    width:100%;
+    max-width:1400px; /*means it wont be larger than 1200px on larger screens */
+    box-sizing: border-box;
+    margi: 0 auto;
+    padding: 3%;
+    
+}
+
+footer{
+    width: 100%;
+    min-height:100px;
+}
+
+/*
+  Flex layouts are one if the easier ways to style responsive layouts that work on all devices
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox*/
+
+.flex-container{
+    display: flex; /* all children will now become flex items*/
+    flex-direction: row; /* other option is column*/
+    flex-wrap: wrap; /*means the children will wrap to a new line */
+}
+
+.flex-item{
+    display: flex;
+    /* the following three itema can be put on one line: https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis:25%: /* width of the box, take up a quarter of the parent's size*/
+	box-sizing: border-box; /* this means that we can add padding, line below, and still only take 25% width of parent*/
+    padding: 5%;
+}
+
+.flex-item a{
+    display: flex;
+    width: 100%;
+    height: 0;
+    padding: 30% 0;
+    background-image: url(../assets/images/lightgrey-line.jpeg); /*change to image of my choice*/
+    background-position: center;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #4f4f4f;
+    transition: all 0.2s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
+}
+
+/* want a different background image for each project */
+/*try to give each tag a unique id in your HTML and tgeb set different background images here */
+/*EXAMPLE CSS: won't work if you just uncomment this */
+/* .flex-item a#my-special-id{
+background-image:url(../assets/images/custom-image-name.jpeg);
+}
+ */
+
+.flex-item a:hover{
+    color:#bbbbbb;
+    background-size: 140%;
+}
+
+.flex-item h4{
+    margin: 10px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+
+

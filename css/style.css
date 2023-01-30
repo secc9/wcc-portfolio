@@ -52,12 +52,13 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox*/
     padding: 5px;
 }
 
+
 .flex-item a{
     display: flex;
     width: 100%;
     height: 0;
     padding: 30% 0;
-    background-image: url(../assets/images/lightgrey-line.jpeg); /*change to image of my choice*/
+    background-image: url(../assets/images/lightgrey-line.jpeg);
     background-position: center;
     background-size: 100%;
     justify-content: center;
@@ -66,7 +67,8 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox*/
     text-decoration: none;
     color: #4f4f4f;
     transition: all 0.2s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
-}
+} 
+ 
 
 /* want a different background image for each project */
 /*try to give each tag a unique id in your HTML and tgeb set different background images here */
@@ -76,9 +78,22 @@ background-image:url(../assets/images/custom-image-name.jpeg);
 }
  */
 
+
+#simpleClock{
+     background-image: url(../assets/images/simple_clock.jpeg);
+}
+
+#noise_line{
+    background-image: url(../assets/images/noise_line.jpeg);
+}
+
+#pattern_drawer{
+    background-image: url(../assets/images/pattern_drawer.jpeg);
+} 
+
 .flex-item a:hover{
     color:#bbbbbb;
-    background-size: 120%;
+    background-size: 200%;
 }
 
 .flex-item h4{

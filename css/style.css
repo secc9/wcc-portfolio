@@ -2,13 +2,12 @@
 /*This is a comment in CSS*/
 
 body{
-    font-family;Verdana, sans-serif;
-    margin:0;
+    font-family: Verdana, sans-serif;
+    margin: 0;
 }
 
 h1{
     font-size: 30px;
-
 }
 
 p{
@@ -23,7 +22,7 @@ main{
     width:100%;
     max-width:1400px; /*means it wont be larger than 1200px on larger screens */
     box-sizing: border-box;
-    margi: 0 auto;
+    margin: 0 auto;
     padding: 3%;
     
 }
@@ -48,9 +47,9 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox*/
     /* the following three itema can be put on one line: https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis:25%: /* width of the box, take up a quarter of the parent's size*/
+    flex-basis: 25%: /* width of the box, take up a quarter of the parent's size*/
 	box-sizing: border-box; /* this means that we can add padding, line below, and still only take 25% width of parent*/
-    padding: 5%;
+    padding: 5px;
 }
 
 .flex-item a{
@@ -79,7 +78,7 @@ background-image:url(../assets/images/custom-image-name.jpeg);
 
 .flex-item a:hover{
     color:#bbbbbb;
-    background-size: 140%;
+    background-size: 120%;
 }
 
 .flex-item h4{
@@ -90,3 +89,48 @@ background-image:url(../assets/images/custom-image-name.jpeg);
 
 
 
+
+/* Media Queries for responsive design */
+
+/* Un-comment the body background-colors to see bold debug color change between screen sizes */
+
+/* Extra large */
+@media screen and (max-width: 1200px) {
+    body {
+      background-color: rgb(0, 255, 162);
+    } 
+
+    .flex-item{
+        flex-basis: 33.33%; /*width of the box, take up a quarter of the parent's size*/
+    }
+}
+
+/* Large */
+@media screen and (max-width: 992px) {
+     body {
+      background-color: rgb(255, 81, 0);
+    }
+
+}
+
+/* Medium */
+@media screen and (max-width: 768px) {
+     body {
+      background-color: rgb(255, 0, 191);
+    } 
+
+    .flex-item{
+        flex-basis: 50%; /*width of the box, take up a quarter of the parent's size*/
+    }
+}
+
+/* Small */
+@media screen and (max-width: 576px) {
+     body {
+      background-color: blue;
+    } 
+
+    .flex-item{
+        flex-basis: 100%; /*width of the box, take up a quarter of the parent's size*/
+    }
+}

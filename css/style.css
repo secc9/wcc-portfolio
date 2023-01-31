@@ -47,7 +47,7 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox*/
     /* the following three itema can be put on one line: https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 25%: /* width of the box, take up a quarter of the parent's size*/
+    flex-basis: 25%; /* width of the box, take up a quarter of the parent's size*/
 	box-sizing: border-box; /* this means that we can add padding, line below, and still only take 25% width of parent*/
     padding: 5px;
 }
@@ -89,7 +89,20 @@ background-image:url(../assets/images/custom-image-name.jpeg);
 
 #pattern_drawer{
     background-image: url(../assets/images/pattern_drawer.jpeg);
-} 
+}
+
+#h_c_p{
+    background-image: url(../assets/images/HTML_poem.jpeg);
+}
+
+
+#tower{
+    background-image: url(../assets/images/3D_tower.jpeg);
+}
+
+#recursion{
+    background-image: url(../assets/images/d_recursion.jpeg);
+}
 
 .flex-item a:hover{
     color:#bbbbbb;

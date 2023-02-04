@@ -104,6 +104,10 @@ background-image:url(../assets/images/custom-image-name.jpeg);
     background-image: url(../assets/images/d_recursion.jpeg);
 }
 
+#triangles{
+    background-image: url(../assets/images/trianglestrianglestriangles.jpeg);
+}
+
 .flex-item a:hover{
     color:#bbbbbb;
     background-size: 200%;

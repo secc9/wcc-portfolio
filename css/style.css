@@ -1,3 +1,5 @@
+/* This is the CSS of my Workshops in Creative Coding Porfolio */
+
 
 /*This is a comment in CSS*/
 
@@ -107,7 +109,10 @@ background-image:url(../assets/images/custom-image-name.jpeg);
 #triangles{
     background-image: url(../assets/images/trianglestrianglestriangles.jpeg);
 }
-
+/*
+#HSB_scan{
+back}
+*/
 .flex-item a:hover{
     color:#bbbbbb;
     background-size: 200%;

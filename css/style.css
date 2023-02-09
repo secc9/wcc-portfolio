@@ -26,8 +26,7 @@ main{
     max-width:1400px; /*means it wont be larger than 1200px on larger screens */
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 3%;
-    
+    padding: 3%;   
 }
 
 footer{

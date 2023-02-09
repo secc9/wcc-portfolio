@@ -4,12 +4,13 @@
 /*This is a comment in CSS*/
 
 body{
-    font-family: Verdana, sans-serif;
+    font-family: Courier New, sans-serif;
     margin: 0;
 }
 
 h1{
-    font-size: 30px;
+    margin-top: 40px;
+    font-size: 70px;
 }
 
 p{
@@ -49,7 +50,7 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox*/
     /* the following three itema can be put on one line: https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 25%; /* width of the box, take up a quarter of the parent's size*/
+    flex-basis: 20%; /* width of the box, take up a quarter of the parent's size*/
 	box-sizing: border-box; /* this means that we can add padding, line below, and still only take 25% width of parent*/
     padding: 5px;
 }
@@ -79,6 +80,12 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox*/
 background-image:url(../assets/images/custom-image-name.jpeg);
 }
  */
+
+#contact{
+    margin-left: 30px;
+    font-size: 30px;
+    
+}
 
 
 #simpleClock{

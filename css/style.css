@@ -109,10 +109,12 @@ background-image:url(../assets/images/custom-image-name.jpeg);
 #triangles{
     background-image: url(../assets/images/trianglestrianglestriangles.jpeg);
 }
+
 /*
-#HSB_scan{
-back}
+#hsb_scan{
+}
 */
+
 .flex-item a:hover{
     color:#bbbbbb;
     background-size: 200%;

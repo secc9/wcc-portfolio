@@ -23,7 +23,7 @@ function setup(){
 
 function draw(){
 
-   background(200, 200, 200, 10);   
+   background(200, 200, 200, 100);   
 
 
     //not sure why this isnt working

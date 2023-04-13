@@ -62,7 +62,7 @@ nav {
 
 nav a{
     color: black;
-    text-decoratin: none;
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -140,6 +140,55 @@ img{
 background-image: url(../assets/images/custom-image-name.jpeg);}
 */
 
+
+.flex-item a#simpleClock{
+    background-image: url(../assets/images/simple_clock.png);
+}
+
+
+.flex-item a#noise_line{
+    background-image: url(../assets/images/noise_line.png);
+}
+
+.flex-item a#pattern_drawer{
+    background-image: url(../assets/images/pattern_drawer.png);
+}
+
+.flex-item a#recursion{
+    background-image: url(../assets/images/d_recursion.png);
+}
+
+.flex-item a#triangles{
+    background-image: url(../assets/images/trianglestrianglestriangles.jpeg);
+}
+
+.flex-item a#HSB_scan{
+    background-image: url(../assets/images/repeating-diagonal-lines-square.jpeg);
+}
+
+.flex-item a#h_c_p{
+    background-image: url(../assets/images/HTML_poem.png);
+}
+
+.flex-item a#tower{
+    background-image: url(../assets/images/3D_tower.png);
+}
+
+.flex-item a#pushpull{
+    background-image: url(../assets/images/push-n-pull.png);
+}
+
+
+.flex-item a#expandingcapsules{
+    background-image: url(../assets/images/expanding-capsules.png);
+}
+
+
+.flex-item a#interactivethingy{
+    background-image: url(../assets/images/interactive-thingy.png);
+}
+
+
 .flex-item a:hover{
     color:#bbbbbb;
     background-size: 120%;
@@ -200,3 +249,5 @@ background-image: url(../assets/images/custom-image-name.jpeg);}
         flex-basis: 100%; /*width of the box, take up a quarter of the parent's size*/
     }
 }
+
+

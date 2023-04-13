@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+    <title>WCC Portfolio - Demo Page</title>
+
+
+    <link rel="stylesheet" href="../css/style.css">
+    
+  </head>
+  <!-- if you have sub pages think about adding a back button? -->
+  <nav>
+    <a href="../">HOME</a>
+  </nav>
+  <header class="documentation-header">
+    <section class="center-text">
+      <h1>"The MC Skooghall Sound n Sight Pallate"</h1>
+      <h2>by Ashley Sagar</h2>
+      <!-- 	<p>Write a one-sentence summary of what the project is. </p> -->
+      <p>An interactive Graphical User Interface for "The MC Skooghall Sound n Sight Pallate"</p>
+    </section>
+  </header>
+
+  <main class="documentation-page">
+    <section>
+      <div class="responsive-video centered-content">
+	<iframe title="vimeo-player"
+		src="https://player.vimeo.com/vimeo/64403651?h=b260a3bab0" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section>
+      <h3>Introduction</h3>
+      <!--
+	  <p>Write a short introduction, a short paragraph, giving a bit more detail about what the project is.</p>
+	  -->
+
+      <p>The MC Skooghall Sound n Sight Pallette is aimed at allowing me to create an interactive GUI for the Swedish artist MC Skooghall.<br>
+	
+      </p>
+      
+
+      
+    </section>
+    <section>
+      <h3>Concept and Background Research</h3>
+      <!--
+	  <p>Write abou the concept behind the project,  in other words the creative or theoretical inspiration. Include details about any background research you may have done (don't forget to include references in the reference section).</p> 	
+      <p>Consider writing about your work in relation to a creative, theoretical or computational tradition that you may be taking inspiration from, in other words think about how your work is situated in a particular making tradition. </p>
+      -->
+      <div class="flex-item">
+	<p>	The MC Skooghall project is the brainchild of Swedish based noise artist Dave Proctor. MC Skooghall is an MC creating "lazy hip hop". <br>
+	  My part in the collaboration is to create the beats for MC Skooghall using the Open Source Audio Programming software SuperCollider.<br>
+	  I chose to use SuperCollider platform as the main sound and sequencing engine because of its power as a music producing tool.<br>
+	  Many experimental musicians and sound artists use SuperCollider for its ability to create music that doesn't necesarily sound like any other artist, it's lightweight use on the computer processor due to limited gui options and also the fact that the software is free to use.
+	  After discussions we have decided that since Dave is not a user of SuperCollider and has limited capacity in programming, I would go ahead and attempt to make a GUI for him to use whilst performing live, thus making his performance less stressful and then he can just focus on triggering the loops.<br>
+	  The prelimanary ideas are that he has a way to trigger pre-made loops with the possibility to also display visualizations for the duration of the loop being played.<br>
+	  Other ideas we explored are to possibly bundle the software as an app and also having some sort of access to it via a hand held device such as an ipad. 
+	  
+	</p>
+      </div>
+      
+      <!-- if you have a full width image try make it not too tall -->
+      <img src="../assets/images/repeating-diagonal-lines-strip.jpeg"/>
+    </section>
+
+    
+    <section>
+      <h3>Technical Implimentation</h3>
+
+      <!-- example of styling for three images, you can write your own styyling -->
+
+      <p>The basic SuperCollider script which includes all the synthdefs and patterns for the beat pallete</p>
+
+      <div class="flex-container flex-basis-half">
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_01.png" />
+	</div>
+      </div>
+
+      <p> The first beginnings of adding a window gui into SuperCollider</p>
+
+      <div class="flex-container flex-basis-half">
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_02.png"/>
+	</div>
+      </div>
+
+
+      <p> Adding a crossfader slider </p>
+      
+      <div class="flex-container flex-basis-half">
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_03.png" />
+	</div>
+	
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_04.png" />
+	</div>
+      </div>
+      <!--
+	  <p>Write aboout the process of implimenting your project.What technical elements or hardware are involved in your system. Write about why you made certain technical or design decisions etc. </p>
+	  -->
+
+      <p> Here I am writing about the process of implimenting the project? <br>
+	What technical elements are involved? <br>
+
+      </p>
+
+      
+      <!-- example of styling for three images, you can write your own styling -->
+
+      <p>the beats section which needs to be addded to buttons</p>
+      
+      <div class="flex-container flex-basis-half">
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_05.png" />
+	</div>
+      </div>
+
+
+      <p>adding buttons to the gui</p>
+      
+      <div class="flex-container flex-basis-half">
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_07.png" />
+	</div>
+      </div>
+      
+      <p> I found that I had trouble with triggering the loops so I had to change the loop section into an Ndef to make it trigger.<br>
+	I became stuck with this so I had to ask Chat GPT for a little help in hat to write for actioning the buttons</p>
+      <div class="flex-container flex-basis-half">
+	<div class="flex-item">
+	  <img src="../assets/images/chatgpt01.png" />
+	</div>
+      </div>
+      
+      <p>changing the code in SuperCollider to reflect this</p>
+      <div class ="flex-container flex-basis-half">	    
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_06.png"/>
+	</div>
+      </div>
+
+      <p>I still had problems with the triggering of the tempo for different loops. When triggering a loop, the tempo would remain the same, instead of changing for the called loop. After some movement of code in various places, I moved the p.TempoClock code into the if statment for the button inside the GUI code as shown below</p>
+
+      <div class="flex-container flex-basis-half">
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_10.png" />
+	</div>
+      </div>
+
+
+
+      <p> Here is the start to teach myself and experiment with making visuals inside of SuperCollider<br>
+	using Oloffson's Audiovisuals in SuperCollider tutorials I experimented with basic drawings</p>
+      
+
+
+
+      <!-- default flex item is for 4 & follows media query styling for home page -->
+      <div class="flex-container">
+	
+	<div class=" flex-item">
+	  <img src="../assets/images/sc_shot_09.png"/>
+	</div>
+	
+	<div class=" flex-item">
+	  <img src="../assets/images/sc_shot_11.png"/>
+	</div>
+
+	<div class=" flex-item">
+	  <img src="../assets/images/sc_shot_12.png"/>
+	</div>
+
+	<div class=" flex-item">
+	  <img src="../assets/images/sc_shot_13.png"/>
+	</div>
+      </div>
+
+      <div class="flex-container">
+	
+	<div class=" flex-item">
+	  <img src="../assets/images/sc_shot_14.png"/>
+	</div>
+
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_15.png"/>
+	</div>
+
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_16.png"/>
+	</div>
+
+	<div class="flex-item">
+	  <img src="../assets/images/sc_shot_18.png"/>
+	</div>
+
+      </div>
+
+    </section>
+
+
+
+    <h3>Reflection and Future Development</h3>
+    <p>Reflect on how the project went, what went well, what you learn etc. Based in these reflections, conclude with how you would further develop this project if you were to make another version or how you would further develop your ideas.</p>
+</section>
+<section>
+  <h3>References</h3>
+  <ul>
+    <li>Technical ref ex. Include link where possible.</li>
+
+    <li>     <a href="https://fredrikolofsson.com/f0blog/audiovisuals-with-sc/">Fredrik Olofsson AudioVisuals in SuperCollider</a>
+      </li>
+    
+    <li>conceptual ref example. Include link where possible.</li>
+
+    
+  </ul>
+</section>
+</main>
+<footer
+  </footer>
+
+</body> 
+
+
+</html>

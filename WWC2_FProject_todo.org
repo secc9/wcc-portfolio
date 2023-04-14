@@ -376,7 +376,8 @@ So far there feels as though there are no bugs in my code (YET!)
 - [ ] maybe some kind of overall pitch slider for the loops (DJ Decks style?)
 - [ ] make the xfader do something? Or do I really need it?
 - [ ] maybe i can have a library of audio files which could open onto a "deck"??
-- [ ] 
+- [ ] maybe turn it into a standalone app?
+  
   
 - 
 * THINGS TO REMEMBER

@@ -1,0 +1,355 @@
+#+title: The todo list for my final project in WWC2
+#+author: Ashley Sagar
+
+* TODO
+
+- [ ] make the project
+- [X] find out what I need to do?
+- [X] check to see what I've already done
+- [ ] get some weblinks???
+  -WHY???
+- [-] write a proposal for hand in
+  -mnext week
+- [-] Peer rieview
+  [[https://learn.gold.ac.uk/mod/workshop/view.php?id=1241930][Peer review link]]
+
+
+{
+I DID NOT DO THIS
+- submission open wed 15 march
+  - submission closes Thurs 30th march
+  - Assesment open thurs 30th march
+    - Asessment close mon 3rd april
+      
+
+* PEER REVIEW
+SCHEDULED: <2023-03-29 Wed>
+ - [ ] submission open wed 15 march
+ - [ ] submission closes Thurs 30th march
+ - [ ] Assesment open thurs 30th march
+ - [ ] Asessment close mon 3rd april
+
+   }
+   
+   ** REMEMBER
+   This is not for approval, just for technical and creative feedback on the ideas
+Question 1:
+What is a one sentence summary of your idea for the final project?
+
+
+Question 2:
+What are you making? Is it a game, interactive installation, instrument,
+performance? Or what making context do you situate yourself within?
+Think about the broader context of interaction in art and the related histories of making.
+Include links or references to works that have inspired you here if applicable. 
+
+
+Question 3:
+What does it do or what does your viewer/user do when interacting with the work?
+What do you hope the experience will be for the participant? How do you imagine it setup and where?
+Feel free to include any images, (clearly labelled) hand-written sketches,
+or anything you think is needed to make it clearer to your peers.
+You can think about drawing an installation diagram or perhaps a user flow or systems diagram depending on your idea. 
+
+
+Question 4:
+What is the input to your system?
+
+
+Question 5:
+What is the output of your system?
+
+
+Question 6:
+What technologies are you using? What hardware, what software, programming languages, libraries,
+what algorithms? If you are finding that more than 50% of these technologies/algorithms are ones that
+you aren't already familiar with (from your modules or previous experience),
+I'd advise you to re-think or include below your back up plan / Minimal Viable Product plan.
+It's often helpful to make clear what tech you feel confident with here or what tests you have already done,
+and include in the next question areas you are unsure about.
+
+
+Question 7:
+What are some challenges you might face?
+
+Question 8:
+Specific help: anything specific you'd like feedback or help with?
+
+
+  * NEED TO DO
+    ** Portfolio 9%
+    *** Deadline Tuesday May 2 16.00
+    
+    [[https://github.com/secc9/wcc-portfolio][portfolio git]]
+    [[https://secc9.github.io/wcc-portfolio/][portfolio]]
+
+     [[https://learn.gold.ac.uk/mod/assign/view.php?id=1242655][portfolio instruction link]]
+
+      - [ ] Portfolio of work
+
+      
+    - [X] remove contact
+      *** term 1
+       completed
+
+     *** term 2
+     **** choose four
+
+    - [X] poem
+    - [X] as if, illustration of life
+    - [X] push and pull
+    - [X] approaches to networked experience
+    - [X] approaches to 3D and webXR
+    - [X] approaches to seeing and sensing
+
+
+ ** for submission
+
+* TODO
+- [X] portfolio url and link to the github
+- [X] at least 4 weekly projects from term 2
+
+
+* TODO 23_03_23
+- [X] add in any completed homeworks
+- [X] - push and Pull (week 5)
+  - Things to do to add puch and pull to portfolio
+  - [X] create flexboxes on index
+  - [X] make push and pull on git
+  - [X] add push and pull to flexbox
+  - [X] make image
+  - [X] insert p-p image
+  - [X] link site across
+    a
+
+    * PUSH AND PULL COMPLETE
+
+    * [X] add in all the flexboxes and name place hoders for remaining homeworks
+      
+
+** WOULDNT IT BE NICE IF I COULD INSERT P5 SKETCHES INTO ALL THE FLEXBOXES
+
+* TODO 23_03_24
+
+** Start to do the make or scrape and put it in the portfolio
+- [ ] check what I need to do for the homework
+
+- [ ] look at other peoples work [[https://learn.gold.ac.uk/mod/forum/discuss.php?d=372284#p562873][forum]]
+  - [[https://learn.gold.ac.uk/mod/assign/view.php?id=1255874][make or scrape homework link]]
+  - [ ] research [[https://tacticaltech.org/news/exposing-the-invisible-the-kit/][Exposing the invisible]]
+  - [ ] go with choice B
+  - [ ] Scrape Wikipedia for some information relevent to your creative interests
+  - [ ] Scrape text from a couple of Wiki pages
+  - [ ] Scrape elsewhere,
+
+    *** Condsraints
+  - [ ]  You must format your archive/data in a correctly formatted JSON file.
+    Images or media can be in a folder, but you must also create a JSON file.
+    Images and other media should be web optimised, i.e. small enough to use / manipulate online.
+  - [ ] You can use p5.js to visualise your data in some way if you want this week,
+    you can also just spend this week collecting or scraping,
+    and then respond to or use the data next week to visualise it.
+  - [ ] You should have a page on your portfolio for this week,
+     if you do not visualise the data this week, please right a very short reflection (approx 300 words)
+      with at least one image describing your goals and process.
+  - [ ] You github page must be responsive (i.e. look good on mobile and desktop devices),
+    so whether it's a full-screen experience or a smaller canvas in a nicely styled webpage,
+     it should size and work nicely across devices.
+
+
+
+- [ ] make a start on the proposal. Maybe something in 3d, 3js
+  
+
+
+
+* TODO 23_03_29
+- [ ] start css file for protfoliio so the new page works
+- [ ] link the new page in to the index
+- [ ] 
+
+
+
+
+* I AM INTERESTED IN THREE.JS
+3D FOR THE WEB LOOKS KINDA COOL
+MAKE SOME WAY OF LEARNING THIS OVER SUMMER
+
+MAYBE I CAN ADD SOME INTO THE PROJECT???
+
+
+
+
+ 
+
+
+      
+/////////////////////////////////////////////////////////////////////////
+
+  * FINAL PROJECT
+    **Create an interactive work 80%
+    *** Deadline Tuesday May 2nd 16.00
+  
+    [[https://learn.gold.ac.uk/mod/assign/view.php?id=1240882][final project instruction link]]
+    -[ ]
+    
+
+
+
+
+  ///////////////////////////////////////////
+
+  * FROM LAST WCC2 CLASS
+
+    
+* TODO for final project
+
+- [ ] interactive work
+- [ ] interaction between the viewer/user & the work
+   OR interaction between 2 computers
+ - A GUI made in Supercollider for the MC SKOOGHALL LOOP PLAYER
+ 
+- [ ] LIVE INTERACTION
+
+- [ ] manage the process
+
+  - prototype
+   - minimum viable product
+    - [ ] make a quick sketch to get it running
+
+      -------------------------------------------------------
+     ||    ----   ----   ----   ----
+     ||   |    | |    | |    | |    |
+     ||   |    | |    | |    | |    | LOOP Triggers
+     ||   |    | |    | |    | |    | Visualizasion triggers
+     ||    ----   ----   ----   ----
+     ||
+     ||
+     ||
+     ||
+     ||
+     ||   
+     ||   ---------------------------
+     || ||          ||               ||
+     || || \\\\\\\\\||\\\\\\\\\\\\\  ||  Crossfader between loops                
+     || ||          ||               ||
+     ||   ---------------------------
+      -------------------------------------------------------
+
+
+- [ ] learn how to use/remix/put together to make something
+  new
+  
+- [ ] work on the SC app for MC Skookhall 
+- [ ] [[https://learn.gold.ac.uk/mod/assign/view.php?id=1240882][assesment link]]
+
+  [[https://learn.gold.ac.uk/mod/page/view.php?id=1270682][extra tech setups page]]
+
+
+* Portfolio
+
+[[https://learn.gold.ac.uk/mod/assign/view.php?id=1242655][portfolio assessment page]]
+
+
+
+- [X] 4 x term 2 online exp in push n pull
+- [X] term 1
+- [ ] final project
+- [-] follow the format for the documentation
+  - [[https://github.com/rebecca-aston/wcc-portfolio][new template for portfolio]]
+  - [ ] personal statment example
+  - [X] do weeks 6,7,8
+  - [X] one has to be responsive
+  - [ ] do documentation
+    
+
+* TODO 4 april 24
+
+- [X] finish interactive sketch
+- [X] film it
+- [X] upload the vieo to vimeo
+- [X] attach link to web prtfolio
+- [X] upload portfolio to github
+- [ ] 
+- 
+
+
+
+* TODO 5th APril 2023
+
+- [ ] start looking through SuperCollider tutorials on GUI
+  - [ ] Using nick collins [[http://composerprogrammer.com/teaching/supercollider/sctutorial/4.2%20Graphical%20User%20Interfaces.html][Nick Collins GUI Tutorial]]
+  - [ ] Using chapter 9 in the SuperCollider Book
+     Wilson, Scott, Nick Collins, and David. Cottle. The SuperCollider Book. Cambridge, Mass.: MIT Press, 2011.
+
+
+- [X] make a start on the MC Skooghall Gui
+
+* TODO 6th April 2023
+
+- [X] start adding some buttons to the window
+- [X] try to make the button trigger a loop
+  - I'm stuck on this bit now. So I need to find some way of making this happen
+  -
+    
+- [ ] The inbuilt SC GUI examples are the place to be :/ :)
+  
+- [ ] 
+- 
+  
+
+* TODO
+
+- [ ] LOOK AT THE BUTTON HELPFILES IN SUPERCOLLIDER
+
+
+- [X] Make a button attach to a looop
+  
+  - 
+- 
+
+* TODO 8th april 23
+
+- [X] turn loops into Ndefs
+- [X] make bottons for loops
+- [X] attach on the NDefs tpo buttons
+- [X] name buttons
+- [X] screebshot progress for documetaion
+- [ ] fill in documantation
+- [ ]
+
+
+
+
+* BUGS SO FAR
+
+- [X] The p.TempoClock isnt being copied across loops. All tempos are the same
+  - FIXED. Moved the line of code =into the gui code to be triggered when the loop is triggered
+- 
+
+
+
+* TODO 12th April 2023
+- [X] try to open a window when triggering a loop
+- [ ] try to close the window on botton loop stop
+- [ ] put some kind of visualization in there
+- [ ] try to put in a scope and the meters into the gui?
+
+-
+  Not sure why but the viz window stopped opening??????
+
+
+* Found an AudioVisuals blog from Fredrik Olofssons www
+** I'm using his Audiovisual tutorials taken from a
+
+[[https://fredrikolofsson.com/f0blog/audiovisuals-with-sc/][olofsson av blog post]]
+
+//audiovisual programming / mapping and visualization
+//organized by lullcec, barcelona 18-20 may 2012
+
+
+* I FUXCKED UP THE CSS. I DIDNT COPY OVER THE IMAGE CODE FOR THE FRONT PAGE
+- [X] fix this
+  DONE
+  
+- 

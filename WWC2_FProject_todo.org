@@ -217,6 +217,7 @@ MAYBE I CAN ADD SOME INTO THE PROJECT???
    - minimum viable product
     - [ ] make a quick sketch to get it running
 
+      THIS IMAGE DOES NOT TRANSLATE OVER TO GIT. VIEW IN THE ORG FILE
       -------------------------------------------------------
      ||    ----   ----   ----   ----
      ||   |    | |    | |    | |    |

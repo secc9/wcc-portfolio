@@ -204,44 +204,48 @@ MAYBE I CAN ADD SOME INTO THE PROJECT???
     
 * TODO for final project
 
-- [ ] interactive work
+- [X] interactive work
+  - [X] using Touch OSC to trigger loops from a machine mmade in SuperCollider
+  - 
+  
 - [ ] interaction between the viewer/user & the work
    OR interaction between 2 computers
- - A GUI made in Supercollider for the MC SKOOGHALL LOOP PLAYER
+  - A GUI made in Supercollider for the MC SKOOGHALL LOOP PLAYER
  
-- [ ] LIVE INTERACTION
+- [X] LIVE INTERACTION
 
 - [ ] manage the process
 
   - prototype
-   - minimum viable product
-    - [ ] make a quick sketch to get it running
+    - minimum viable product
+      - [X] make a quick sketch to get it running
 
-      THIS IMAGE DOES NOT TRANSLATE OVER TO GIT. VIEW IN THE ORG FILE
-      -------------------------------------------------------
-     ||    ----   ----   ----   ----
-     ||   |    | |    | |    | |    |
-     ||   |    | |    | |    | |    | LOOP Triggers
-     ||   |    | |    | |    | |    | Visualizasion triggers
-     ||    ----   ----   ----   ----
-     ||
-     ||
-     ||
-     ||
-     ||
-     ||   
-     ||   ---------------------------
-     || ||          ||               ||
-     || || \\\\\\\\\||\\\\\\\\\\\\\  ||  Crossfader between loops                
-     || ||          ||               ||
-     ||   ---------------------------
-      -------------------------------------------------------
+	THIS IMAGE DOES NOT TRANSLATE OVER TO GIT. VIEW IN THE ORG FILE
+	-------------------------------------------------------
+       ||    ----   ----   ----   ----
+       ||   |    | |    | |    | |    |
+       ||   |    | |    | |    | |    | LOOP Triggers
+       ||   |    | |    | |    | |    | Visualizasion triggers
+       ||    ----   ----   ----   ----
+       ||
+       ||
+       ||
+       ||
+       ||
+       ||   
+       ||   ---------------------------
+       || ||          ||               ||
+       || || \\\\\\\\\||\\\\\\\\\\\\\  ||  Crossfader between loops                
+       || ||          ||               ||
+       ||   ---------------------------
+	-------------------------------------------------------
 
 
-- [ ] learn how to use/remix/put together to make something
+- [X] learn how to use/remix/put together to make something
   new
+  - USing Fredrik Oloffson sketches for this to put into the visualizer
   
-- [ ] work on the SC app for MC Skookhall 
+- [X] work on the SC app for MC Skookhall 
 - [ ] [[https://learn.gold.ac.uk/mod/assign/view.php?id=1240882][assesment link]]
 
   [[https://learn.gold.ac.uk/mod/page/view.php?id=1270682][extra tech setups page]]
@@ -278,11 +282,12 @@ MAYBE I CAN ADD SOME INTO THE PROJECT???
 
 * TODO 5th APril 2023
 
-- [ ] start looking through SuperCollider tutorials on GUI
-  - [ ] Using nick collins [[http://composerprogrammer.com/teaching/supercollider/sctutorial/4.2%20Graphical%20User%20Interfaces.html][Nick Collins GUI Tutorial]]
+- [-] start looking through SuperCollider tutorials on GUI
+  - [X] Using nick collins [[http://composerprogrammer.com/teaching/supercollider/sctutorial/4.2%20Graphical%20User%20Interfaces.html][Nick Collins GUI Tutorial]]
   - [ ] Using chapter 9 in the SuperCollider Book
      Wilson, Scott, Nick Collins, and David. Cottle. The SuperCollider Book. Cambridge, Mass.: MIT Press, 2011.
 
+     
 
 - [X] make a start on the MC Skooghall Gui
 
@@ -291,23 +296,15 @@ MAYBE I CAN ADD SOME INTO THE PROJECT???
 - [X] start adding some buttons to the window
 - [X] try to make the button trigger a loop
   - I'm stuck on this bit now. So I need to find some way of making this happen
-  -
+
     
 - [ ] The inbuilt SC GUI examples are the place to be :/ :)
-  
-- [ ] 
-- 
   
 
 * TODO
 
 - [ ] LOOK AT THE BUTTON HELPFILES IN SUPERCOLLIDER
-
-
 - [X] Make a button attach to a looop
-  
-  - 
-- 
 
 * TODO 8th april 23
 
@@ -317,27 +314,22 @@ MAYBE I CAN ADD SOME INTO THE PROJECT???
 - [X] name buttons
 - [X] screebshot progress for documetaion
 - [ ] fill in documantation
-- [ ]
-
-
-
 
 * BUGS SO FAR
 
 - [X] The p.TempoClock isnt being copied across loops. All tempos are the same
   - FIXED. Moved the line of code =into the gui code to be triggered when the loop is triggered
-- 
-
 
 
 * TODO 12th April 2023
 - [X] try to open a window when triggering a loop
-- [ ] try to close the window on botton loop stop
-- [ ] put some kind of visualization in there
+- [X] try to close the window on botton loop stop
+- [X] put some kind of visualization in there
 - [ ] try to put in a scope and the meters into the gui?
-
--
-  Not sure why but the viz window stopped opening??????
+  - Still not done this
+  
+ 
+ -  Not sure why but the viz window stopped opening??????
 
 
 * Found an AudioVisuals blog from Fredrik Olofssons www
@@ -369,7 +361,7 @@ So far there feels as though there are no bugs in my code (YET!)
 
 * Things to do
 
-- [ ] more work on drawing in SuperCollider
+- [X] more work on drawing in SuperCollider
 - [ ] start to make visuals for each loop
 - [ ] think about adding audio meters into the GUI window
 - [ ] think about adding a scope into the GUI window
@@ -381,8 +373,8 @@ So far there feels as though there are no bugs in my code (YET!)
   
 - 
 * THINGS TO REMEMBER
-- [ ] REMEMBER TO UDATE TO GIT PRETTY REGULARLY
-- [ ] RESIZE IMAGES TO SOMETHING SMALLER AS GIT DESKTOP DOESNT LIKE LARGE IMAGES AND IT HANGS THEN YOU HAVE TO DELETE THE REPO AND START AGAIN AND AGAIN AND AGAIN :( SAD AND ANGRY EMOJI
+- [X] REMEMBER TO UDATE TO GIT PRETTY REGULARLY
+- [X] RESIZE IMAGES TO SOMETHING SMALLER AS GIT DESKTOP DOESNT LIKE LARGE IMAGES AND IT HANGS THEN YOU HAVE TO DELETE THE REPO AND START AGAIN AND AGAIN AND AGAIN :( SAD AND ANGRY EMOJI
 - [ ] FIND A WAY TO STOP A PUSH IF ITS HANGING DUE TO LARGE FILES
 
 
@@ -390,7 +382,7 @@ So far there feels as though there are no bugs in my code (YET!)
 
 - [ ] just do anything. its been a few days and you've lost momentum
 
-- [ ] OSC
+- [X] OSC
 
 - [ ] [[https://www.youtube.com/watch?v=ZVTbRNu2BI0][Eli Fieldsteel OSC tutorial]]
 
@@ -401,7 +393,7 @@ Maybe use TouchOSC instead
  
 -
 * TODO thurs 20th April
-- [ ] work on Touch OSC
+- [X] work on Touch OSC
 - [ ] work on blog documentation
 - 
 - [ ] I'm stuck on the touch osc

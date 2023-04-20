@@ -394,7 +394,7 @@ Maybe use TouchOSC instead
 -
 * TODO thurs 20th April
 - [X] work on Touch OSC
-- [ ] work on blog documentation
+- [X] work on blog documentation
 - 
 - [ ] I'm stuck on the touch osc
   - I have the ipad sending messates from one button

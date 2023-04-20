@@ -384,4 +384,30 @@ So far there feels as though there are no bugs in my code (YET!)
 - [ ] REMEMBER TO UDATE TO GIT PRETTY REGULARLY
 - [ ] RESIZE IMAGES TO SOMETHING SMALLER AS GIT DESKTOP DOESNT LIKE LARGE IMAGES AND IT HANGS THEN YOU HAVE TO DELETE THE REPO AND START AGAIN AND AGAIN AND AGAIN :( SAD AND ANGRY EMOJI
 - [ ] FIND A WAY TO STOP A PUSH IF ITS HANGING DUE TO LARGE FILES
+
+
+* TODO wed 19th april
+
+- [ ] just do anything. its been a few days and you've lost momentum
+
+- [ ] OSC
+
+- [ ] [[https://www.youtube.com/watch?v=ZVTbRNu2BI0][Eli Fieldsteel OSC tutorial]]
+
+  I got gyrosc working but I need to be able to trigger the loops with it?????
+
+
+Maybe use TouchOSC instead
+ 
+-
+* TODO thurs 20th April
+- [ ] work on Touch OSC
+- [ ] work on blog documentation
 - 
+- [ ] I'm stuck on the touch osc
+  - I have the ipad sending messates from one button
+  - I have the button press playing the ndef but not stopping it
+  - I dont have the button press toggling hte buttonn though  
+
+
+  

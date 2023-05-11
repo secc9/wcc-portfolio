@@ -399,7 +399,10 @@ Maybe use TouchOSC instead
 - [ ] I'm stuck on the touch osc
   - I have the ipad sending messates from one button
   - I have the button press playing the ndef but not stopping it
-  - I dont have the button press toggling the button though  
+  - I dont have the button press toggling the button though
+
+
+
 
 
   

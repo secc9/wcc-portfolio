@@ -18,10 +18,10 @@
   </nav>
   <header class="documentation-header">
     <section class="center-text">
-      <h1>"The MC Skooghall Sound n Sight Pallate"</h1>
+      <h1>"The MC Skooghall Sound n Sight Palette"</h1>
       <h2>by Ashley Sagar</h2>
       <!-- 	<p>Write a one-sentence summary of what the project is. </p> -->
-      <p>An interactive Graphical User Interface for "The MC Skooghall Sound n Sight Pallate"</p>
+      <p>An interactive Graphical User Interface for "The MC Skooghall Sound n Sight Palette</p>
     </section>
   </header>
 
@@ -41,9 +41,10 @@
 	  <p>Write a short introduction, a short paragraph, giving a bit more detail about what the project is.</p>
 	  -->
 
-      <p>The MC Skooghall Sound n Sight Pallette is aimed at allowing me to create an interactive GUI for the Swedish artist MC Skooghall.<br>
-	Creating an application for live musical performance and visualizations.
-	
+      <p>
+	The MC Skooghall Sound n Sight Palette is aimed at allowing me to create an interactive GUI for the Swedish artist MC Skooghall.
+	Creating an application for live musical performance and visualizations. 
+
       </p>
       
 
@@ -56,20 +57,20 @@
       <p>Consider writing about your work in relation to a creative, theoretical or computational tradition that you may be taking inspiration from, in other words think about how your work is situated in a particular making tradition. </p>
       -->
       <div class="flex-item">
-	<p>The MC Skooghall project is the brainchild of Swedish based noise artist Dave Proctor. MC Skooghall is an MC creating "lazy hip hop". <br>
-	  My part in the collaboration is to create the beats for MC Skooghall using the Open Source Audio Programming software SuperCollider.<br>
-	  I chose to use SuperCollider platform as the main sound and sequencing engine because of its power as a music producing tool.<br>
-	  Many experimental musicians and sound artists use SuperCollider for its ability to create music that doesn't necesarily sound like any other artist,
+	<p>
+	  The MC Skooghall project is the brainchild of Swedish based noise artist Dave Proctor. MC Skooghall is an MC creating "lazy hip hop". 
+	  My part in the collaboration is to create the beats for MC Skooghall using the Open Source Audio Programming software SuperCollider.
+	  I chose to use SuperCollider platform as the main sound and sequencing engine because of its power as a music producing tool.
+	  Many experimental musicians and sound artists use SuperCollider for its ability to create music that doesn't necessarily sound like any other artist,
 	  it's lightweight use on the computer processor due to limited gui options and also the fact that the software is Open Source and free to use.
-	  The down side of this is the renowned, steep learning curve.<br>
-	  I first came across SuperCollider after discovering the music of Cylob (Chris Jeffs) aound 2006 and was fascinated on how his music sounded like nothing else and found that he created the
-	  CMS (Cylob Music System) Environment whilst using SuperCollider. I thus began a very slow journey of programming music in SuperCollider.<br>
-	  The MC Skooghall Sound n Sight Pallate would use the
-	  After discussions we have decided that since Dave is not a user of SuperCollider and has limited capability in programming,
-	  I would go ahead and attempt to make a GUI for him to use whilst performing live, thus making his performance less stressful and then he can just focus on triggering the loops.<br>
-	  The prelimanary ideas are that he has a way to trigger pre-made loops with the possibility to also display visualizations for the duration of the loop being played.<br>
-	  Other ideas we explored are to possibly bundle the software as an app and also having some sort of access to it via a hand held device such as an ipad. 
-	  
+	  The downside of this is the renowned, steep learning curve.
+	  I first came across SuperCollider after discovering the music of Cylob (Chris Jeffs) around 2006 and was fascinated on how his music sounded
+	  like nothing else and found that he created the CMS (Cylob Music System) Environment whilst using SuperCollider. I thus began a very slow journey of programming music in SuperCollider.
+	  The MC Skooghall Sound n Sight Palette would use the After discussions we have decided that since Dave is not a user of SuperCollider and has limited capability in programming,
+	  I would go ahead and attempt to make a GUI for him to use whilst performing live, thus making his performance less stressful and then he can just focus on triggering the loops.
+	  The preliminary ideas are that he has a way to trigger pre-made loops with the possibility to also display visualizations for the duration of the loop being played.
+	  Other ideas we explored are to possibly bundle the software as an app and also having some sort of access to it via a hand held device such as an ipad.
+
 	</p>
       </div>
       
@@ -79,11 +80,11 @@
 
     
     <section>
-      <h3>Technical Implimentation</h3>
+      <h3>Technical Implementation</h3>
 
       <!-- example of styling for three images, you can write your own styyling -->
 
-      <p>The basic SuperCollider script which includes all the synthdefs and patterns for the beat pallete</p>
+      <p>The basic SuperCollider script which includes all the synthdefs and patterns for the beat palette</p>
 
       <div class="flex-container flex-basis-half">
 	<div class="flex-item">
@@ -91,7 +92,7 @@
 	</div>
       </div>
 
-      <p> The first beginnings of adding a window gui into SuperCollider</p>
+      <p>The first beginnings of adding a window gui into SuperCollider</p>
 
       <div class="flex-container flex-basis-half">
 	<div class="flex-item">
@@ -118,15 +119,12 @@
 
 
 	  
-    <!--  <p> Here I am writing about the process of implimenting the project? <br> -->
+    <!--  <p> Here I am writing about the process of implimenting the project? <br>
 	What technical elements are involved? <br>
+      -->
+	The process of this project has been a steady one. As a sometimes user of SuperCollider I didn't really have much in the way of problems whilst creating the music for this project, as that is the part of the software I'm familiar with. Work slowed down when it came to creating functionality within the gui, such as triggering loops with buttons and making the visualization windows open and close on the same button press. After figuring this out I moves on to trying to control the app via TouchOSC. Here is where I began running into real problems. I did get TouchOSC talking to SuperCollider 
+You can find my ongoing TODO org file documenting my "daily" process with working on the app 
 
-	The process of this project has been a steady one. As a sometimes user of SuperCollider
-	I didn't really have much in the way of problems whilst creating the music for this project, as that is the part of the software
-	I'm familiar with. Work slowed down when it came to creating functionality within the gui, such as triggering loops with buttons
-	and making the visualization windows open and close on the same button press.
-	After figuring this out I moves on to trying to control the app via touchOSC. Here is where I began running into real problems.
-	I did get TouchOSC talking to SuperCollider 
       </p>
       <p>
 	You can find my ongoing <a target="_blank" href="https://github.com/secc9/wcc-portfolio/blob/main/WWC2_FProject_todo.org" >TODO org</a> file documenting my "daily" process with working on the app
@@ -152,8 +150,9 @@
 	</div>
       </div>
       
-      <p> I found that I had trouble with triggering the loops so I had to change the loop section into an Ndef to make it trigger.<br>
-	I became stuck with this so I had to ask Chat GPT for a little help in hat to write for actioning the buttons</p>
+      <p>I found that I had trouble with triggering the loops so I had to change the loop section into an Ndef to make it trigger.
+	I became stuck with this so I had to ask Chat GPT for a little help in hat to write for actioning the buttons
+</p>
       <div class="flex-container flex-basis-half">
 	<div class="flex-item">
 	  <img src="../assets/images/chatgpt01.png" />
@@ -167,7 +166,9 @@
 	</div>
       </div>
 
-      <p>I still had problems with the triggering of the tempo for different loops. When triggering a loop, the tempo would remain the same, instead of changing for the called loop. After some movement of code in various places, I moved the p.TempoClock code into the if statment for the button inside the GUI code as shown below</p>
+      <p>
+	I still had problems with the triggering of the tempo for different loops. When triggering a loop, the tempo would remain the same, instead of changing for the called loop. After some movement of code in various places, I moved the p.TempoClock code into the if statement for the button inside the GUI code as shown below
+      </p>
 
       <div class="flex-container flex-basis-half">
 	<div class="flex-item">
@@ -231,14 +232,17 @@
 
     </section>
 
-    <p>I'm now at the point of making a visualizer window appear and close on a button press. I do have an issue about having the window open on a different display though.<br>
-      I made some video documntation for this which you can find below <!-- <a target="_blank" href="https://youtu.be/Szn1uVKvPmw">here.</a> <br> -->
+    <p>
+      I'm now at the point of making a visualizer window appear and close on a button press. I do have an issue about having the window open on a different display though.
+I made some video documentation for this which you can find below 
+
+<!-- <a target="_blank" href="https://youtu.be/Szn1uVKvPmw">here.</a> <br> -->
       <div>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/Szn1uVKvPmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
       </div>
       
-     Here I've begun to add that the window opens in fullscreen on a separate display. Allowing the gui to be used on a laptop and the visualisaion to be projected</p>
+Here I've begun to add that the window opens in fullscreen on a separate display. Allowing the gui to be used on a laptop and the visualisation to be projected</p>
 <div>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QDz0yvqDtPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
@@ -247,20 +251,13 @@
     <p>Reflect on how the project went, what went well, what you learn etc. Based in these reflections, conclude with how you would further develop this project if you were to make another version or how you would further develop your ideas.</p>
 -->
     <p>
-      So far with working on this project I felt that everything didn't go so bad. I refreshed my knowledge of SuperCollider with running through
-      some tutorial files each day in both the audio and visualization parts of it. Unfortunatley SuperCollider does not have much in the way of
-      documentation and tutorials for visuals and GUI as many people use the application for experimental composition. I did work through Fredrik Oloffson's
-      tutorials and workshop documments whilst working on this project which will assist me in the ongoing work with this project.
-      <br>
-      As far as I can see the project is a long way from being complete and is only in a beta stage at the moment.
-      Many things need to be completed such as the TouchOSC button triggering correctly and adding more visualisations to the app as well as an ongoing
-      addition of loops and visualizations for as long as this application works for the project in question. Features to be added include and could include<br>
-      - random beat generator <br>
-      - audio metering to the gui <br>
-      - scope to the gui <br>
-      - tempo shift sliders like on a turntable <br>
-      - crossfader to fade between tracks <br>
-
+    So far with working on this project I felt that everything didn't go so bad. I refreshed my knowledge of SuperCollider with running through some tutorial files each day in both the audio and visualization parts of it. Unfortunately, SuperCollider does not have much in the way of documentation and tutorials for visuals and GUI as many people use the application for experimental composition. I did work through Fredrik Oloffson's tutorials and workshop documents whilst working on this project which will assist me in the ongoing work with this project. 
+As far as I can see the project is a long way from being complete and is only in a beta stage at the moment. Many things need to be completed such as the TouchOSC button triggering correctly and adding more visualisations to the app as well as an ongoing addition of loops and visualizations for as long as this application works for the project in question. Features to be added include and could include
+- random beat generator 
+- audio metering to the gui 
+- scope to the gui 
+- tempo shift sliders like on a turntable 
+- crossfader to fade between tracks 
 
       
       
